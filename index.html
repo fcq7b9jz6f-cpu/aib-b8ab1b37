@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Hassan Elgzairy - AI Founder</title>
+    <meta name="description" content="The personal portfolio of Hamza Hassan Elgzairy, founder of Megsy, exploring the frontiers of Artificial Intelligence.">
+    <meta name="author" content="Hamza Hassan Elgzairy">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;700&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">{
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.0.42/dist/lenis.min.js"></script>
+</head>
+<body>
+    <canvas id="webgl-canvas"></canvas>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hamza Hassan Elgzairy</h1>
+            <h2>AI Founder & Visionary</h2>
+        </div>
+    </header>
+
+    <main>
+        <section id="manifesto" class="content-section">
+            <div class="grid-container">
+                <div class="grid-label">01</div>
+                <div class="grid-main">
+                    <h3 class="section-title">Manifesto</h3>
+                    <p class="large-quote">We are not merely building algorithms; we are sculpting intelligence. My work is dedicated to creating AI that is not just powerful, but symbiotic, extending human capability and creativity into new, uncharted territories.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="founder" class="content-section">
+            <div class="grid-container">
+                <div class="grid-label">02</div>
+                <div class="grid-main">
+                    <h3 class="section-title">The Founder</h3>
+                    <div class="founder-layout">
+                        <img src="https://images.pexels.com/photos/19956444/pexels-photo-19956444.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Hamza Hassan Elgzairy" class="founder-image">
+                        <div class="founder-bio">
+                            <p>With a background in computational linguistics and a decade of experience in machine learning architecture, my journey has been a relentless pursuit of a singular vision: to bridge the gap between human intuition and artificial cognition. This path led me to establish Megsy, a venture born from the conviction that the future of AI lies in its ability to understand and augment the nuances of human thought.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="content-section">
+            <div class="grid-container">
+                <div class="grid-label">03</div>
+                <div class="grid-main">
+                    <h3 class="section-title">The Work</h3>
+                    <h4 class="megsy-title">Megsy</h4>
+                    <p>Megsy is my primary venture, an AI research and development company focused on creating generative models that assist in complex problem-solving. Our mission is to build tools that act as a natural extension of the human mind, enabling professionals to innovate faster, think deeper, and create with unprecedented freedom.</p>
+                    <img src="https://images.pexels.com/photos/32548821/pexels-photo-32548821.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Abstract representation of Megsy's AI technology" class="section-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="case-study" class="content-section">
+            <div class="grid-container">
+                <div class="grid-label">04</div>
+                <div class="grid-main">
+                    <h3 class="section-title">Case Study</h3>
+                    <h4 class="case-study-subtitle">Project Chimera</h4>
+                    <p>Our flagship achievement is 'Project Chimera,' an AI model that successfully synthesized novel protein structures for therapeutic use, reducing the typical discovery timeline from years to weeks. This breakthrough, achieved by Megsy's unique approach to pattern recognition in biological data, was recently published in the Journal of Computational Biology.</p>
+                    <p class="tech-specs">// Model: Recurrent Generative Network // Dataset: 1.2M protein sequences // Compute: 256 A100 GPUs // Result: 87% accuracy in predicting stable folds.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="writings" class="content-section">
+            <div class="grid-container">
+                <div class="grid-label">05</div>
+                <div class="grid-main">
+                    <h3 class="section-title">Writings</h3>
+                    <ul class="writings-list">
+                        <li><a href="#">The Fallacy of the Black Box: Towards Interpretable AI <span class="arrow">&rarr;</span></a></li>
+                        <li><a href="#">Cognitive Scaffolding: How AI Will Reshape Thought <span class="arrow">&rarr;</span></a></li>
+                        <li><a href="#">Beyond Automation: The Next Frontier of Human-AI Collaboration <span class="arrow">&rarr;</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="grid-container">
+            <div class="grid-label">06</div>
+            <div class="grid-main">
+                 <h3 class="section-title">Get In Touch</h3>
+                <p class="contact-text">I am always open to discussing new ideas, collaborations, or speaking engagements. Let's shape the future of intelligence together.</p>
+                <a href="mailto:hamza@megsy.ai" class="contact-link">hamza@megsy.ai</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="scene.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
